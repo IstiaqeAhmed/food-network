@@ -1,16 +1,15 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    margin: 50px;
+    margin: 0;
 }
 h1{
     font-size: 60px;
-    /* font-weight: bold; */
     font-weight: 700;
     font-style: normal;
-    margin-top: 30%;
     color: #575757;
     line-height: 130%;
     letter-spacing: -0.02em;
+    padding-top: 150px;
 
     
 }
@@ -32,11 +31,12 @@ h1{
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
 }
 .fifty-fifty-area{
     width: 50%;
     padding-left: 5%;
+  
 }
 .fifty-fifty-area img{
     /* width: 90%; */
@@ -51,11 +51,91 @@ h1{
     font-weight: 600;
     font-size: 18px;
     line-height: 130%; 
-    margin-top: 700px;
+    margin-top: 800px;
     padding: 24px 32px;
     box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
     border-radius: 100px;
-    
-    
- 
+}
+.about-me{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    /* height: 600px;
+    top: 864px;
+    left: 31px; */
+}
+.personal-information{
+    margin-top: 150px;
+}
+.personal-information h2{
+    color: 
+    #707070;
+    font-weight: 700px;
+    line-height: 54px;
+    font-size: 30px;
+}
+.personal-information p{
+         width: 440px;
+         height: 160px;
+         left: 48px;
+         font-size: 19px;
+         font-weight: 550;
+         line-height: 30px;
+         color: #333541;
+         margin: 40px 0px ;
+         text-align: justify;
+       padding-bottom: 15px;
+}
+#female-person{
+    height: 550px;
+    margin-top: 50px;
+}
+.recipies h1{
+    text-align: center;
+    /* width: 529px; */
+    height: 60px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.88px;
+    color: #676767;
+    align-items: center;
+    margin-left: 88.5px;
+    text-transform: capitalize;
+    top: 0px;
+}
+.recipies h3{
+    text-align: center;
+    color: #252525;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.55px;
+    align-items: center;
+    margin: 30px 0px;
+    position: static;
+    width: 706px;
+    height: 69px;
+    top: 90px;
+    display: flex;
+    padding-left: 400px;
+}
+.flex-container{
+    display: flex;
+    width: 1239px;
+    height: 528px;
+}
+.recipie-details {
+    width: 377px;
+    height: 458px;
+    background: #FFFFFF;
+    margin-left: 40px;
+    padding: 20px;
+    /* margin-bottom: 100px; */
+    text-align: justify;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    margin: 0px 54px;
+}
+.recipie-details img{
+    width: 337px;
+    height: 256px;
+    border-radius: 20px;
 }
