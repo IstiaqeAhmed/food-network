@@ -6,12 +6,13 @@ h1{
     font-size: 60px;
     font-weight: 700;
     font-style: normal;
-    color: #575757;
     line-height: 130%;
     letter-spacing: -0.02em;
-    padding-top: 150px;
 
-    
+}
+.fifty-fifty-area h1{
+    padding-top: 150px;
+        color: #575757;
 }
 .first-part-paragraph{
     font-weight: 500;
@@ -138,4 +139,49 @@ h1{
     width: 337px;
     height: 256px;
     border-radius: 20px;
+}
+.followers{
+    margin-left: 100px;
+    width: 1002px;
+    height: 200px;
+     top: 2308px; 
+     left: 68px; 
+    border-radius: 20px;
+    padding: 40px 165px ;
+    gap: 30px;
+    color: Default / White;
+    flex-direction: row;
+    align-items: flex-start;
+    /* background-color: #FFFFFF; */
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+footer{
+    width: 1540 px;
+    height: 256px;
+    top: 2746px;
+    left: 0%;
+right: 0%;
+top: 91.47%;
+bottom: 0%;
+padding-left: 500px;
+background-color: #0b0d17;
+}
+footer h1{
+    padding-top: 50px;
+    padding-left: 60px;
+    /* width: 248px; */
+    height: 41px;
+    /* left: 596px; */
+    top: 37px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 41px;
+    color: white;
+    background-color: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+}
+footer h4{
+   color: white;
+  
 }
